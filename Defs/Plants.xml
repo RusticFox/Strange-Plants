@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--Neurotrainer-->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantNeurotrainer</defName>
+    <label>neurotrainer plant</label>
+    <description>Yields neurotrainers, which are used to quickly increase your skills.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/NeuroPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible>
+      <nutrition>0.20</nutrition>
+    </ingestible>
+    <plant>
+			<fertilitySensitivity>0.7</fertilitySensitivity>
+			<growDays>20</growDays>
+			<dieIfLeafless>true</dieIfLeafless>
+      <reproduces>false</reproduces>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>MechSerumNeurotrainer</harvestedThingDef>
+      <harvestYield>1</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowMinSkill>18</sowMinSkill>
+      <topWindExposure>0.1</topWindExposure>
+      <immatureGraphicPath>Things/Immature/NeuroPlant</immatureGraphicPath>
+      <visualSizeRange>
+        <min>0.3</min>
+        <max>1.05</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>
+
+    <!--Chemfuel-->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantChemfuel</defName>
+    <label>chemfuel plant</label>
+    <description>Yields chemfuel, which is a type of fuel.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/ChemfuelPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible>
+      <nutrition>0.20</nutrition>
+    </ingestible>
+    <plant>
+			<fertilitySensitivity>0.7</fertilitySensitivity>
+			<growDays>12</growDays>
+			<dieIfLeafless>true</dieIfLeafless>
+      <reproduces>false</reproduces>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>Chemfuel</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowMinSkill>10</sowMinSkill>
+      <topWindExposure>0.1</topWindExposure>
+      <immatureGraphicPath>Things/Immature/ChemfuelPlant</immatureGraphicPath>
+      <visualSizeRange>
+        <min>0.3</min>
+        <max>1.05</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>
+
+    <!--Beer-->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantBeer</defName>
+    <label>beer plant</label>
+    <description>Yields beer, crack open a cold one.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/BeerPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible>
+      <nutrition>0.20</nutrition>
+    </ingestible>
+    <plant>
+			<fertilitySensitivity>0.7</fertilitySensitivity>
+			<growDays>8</growDays>
+			<dieIfLeafless>true</dieIfLeafless>
+      <reproduces>false</reproduces>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>Beer</harvestedThingDef>
+      <harvestYield>1</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowMinSkill>8</sowMinSkill>
+      <topWindExposure>0.1</topWindExposure>
+      <immatureGraphicPath>Things/Immature/BeerPlant</immatureGraphicPath>
+      <visualSizeRange>
+        <min>0.3</min>
+        <max>1.05</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>
+
+    <!--Chocolate-->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantChocolate</defName>
+    <label>chocolate plant</label>
+    <description>Yields chocolate, who does not love chocolate?</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/ChocoPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible>
+      <nutrition>0.20</nutrition>
+    </ingestible>
+    <plant>
+			<fertilitySensitivity>0.7</fertilitySensitivity>
+			<growDays>8</growDays>
+			<dieIfLeafless>true</dieIfLeafless>
+      <reproduces>false</reproduces>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>Chocolate</harvestedThingDef>
+      <harvestYield>2</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowMinSkill>8</sowMinSkill>
+      <topWindExposure>0.1</topWindExposure>
+      <immatureGraphicPath>Things/Immature/ChocoPlant</immatureGraphicPath>
+      <visualSizeRange>
+        <min>0.3</min>
+        <max>1.05</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>
+
+    <!--Componet-->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantComponent</defName>
+    <label>component plant</label>
+    <description>Yields components, used to make and repair stuff.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/CompoPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible>
+      <nutrition>0.20</nutrition>
+    </ingestible>
+    <plant>
+			<fertilitySensitivity>0.7</fertilitySensitivity>
+			<growDays>12</growDays>
+			<dieIfLeafless>true</dieIfLeafless>
+      <reproduces>false</reproduces>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>Component</harvestedThingDef>
+      <harvestYield>1</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowMinSkill>10</sowMinSkill>
+      <topWindExposure>0.1</topWindExposure>
+      <immatureGraphicPath>Things/Immature/CompoPlant</immatureGraphicPath>
+      <visualSizeRange>
+        <min>0.3</min>
+        <max>1.05</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>
+
+    <!--Painstopper-->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantPainstopper</defName>
+    <label>painstopper plant</label>
+    <description>Yields painstoppers, used to stop pain.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/ImplantPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible>
+      <nutrition>0.20</nutrition>
+    </ingestible>
+    <plant>
+			<fertilitySensitivity>0.7</fertilitySensitivity>
+			<growDays>15</growDays>
+			<dieIfLeafless>true</dieIfLeafless>
+      <reproduces>false</reproduces>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>Painstopper</harvestedThingDef>
+      <harvestYield>1</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowMinSkill>12</sowMinSkill>
+      <topWindExposure>0.1</topWindExposure>
+      <immatureGraphicPath>Things/Immature/ImplantPlant</immatureGraphicPath>
+      <visualSizeRange>
+        <min>0.3</min>
+        <max>1.05</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>
+
+    <!--Joywire-->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantJoywire</defName>
+    <label>joywire plant</label>
+    <description>Yields joywires.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/ImplantPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible>
+      <nutrition>0.20</nutrition>
+    </ingestible>
+    <plant>
+			<fertilitySensitivity>0.7</fertilitySensitivity>
+			<growDays>15</growDays>
+			<dieIfLeafless>true</dieIfLeafless>
+      <reproduces>false</reproduces>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>Joywire</harvestedThingDef>
+      <harvestYield>1</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowMinSkill>12</sowMinSkill>
+      <topWindExposure>0.1</topWindExposure>
+      <immatureGraphicPath>Things/Immature/ImplantPlant</immatureGraphicPath>
+      <visualSizeRange>
+        <min>0.3</min>
+        <max>1.05</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>
+
+    <!--GlitterWorld Meds-->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantGlitterworldmeds</defName>
+    <label>glitterworld med plant</label>
+    <description>Yields Glitter World medicine.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/GlitterMedPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible>
+      <nutrition>0.20</nutrition>
+    </ingestible>
+    <plant>
+			<fertilitySensitivity>0.7</fertilitySensitivity>
+			<growDays>20</growDays>
+			<dieIfLeafless>true</dieIfLeafless>
+      <reproduces>false</reproduces>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>GlitterworldMedicine</harvestedThingDef>
+      <harvestYield>1</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowMinSkill>18</sowMinSkill>
+      <topWindExposure>0.1</topWindExposure>
+      <immatureGraphicPath>Things/Immature/GlitterMedPlant</immatureGraphicPath>
+      <visualSizeRange>
+        <min>0.3</min>
+        <max>1.05</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>
+
+    <!--Mortar Shell-->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantMortarShell</defName>
+    <label>mortar shell plant</label>
+    <description>Yields Mortar shells.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/ShellPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible>
+      <nutrition>0.20</nutrition>
+    </ingestible>
+    <plant>
+			<fertilitySensitivity>0.7</fertilitySensitivity>
+			<growDays>13</growDays>
+			<dieIfLeafless>true</dieIfLeafless>
+      <reproduces>false</reproduces>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>Shell_HighExplosive</harvestedThingDef>
+      <harvestYield>1</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowMinSkill>10</sowMinSkill>
+      <topWindExposure>0.1</topWindExposure>
+      <immatureGraphicPath>Things/Immature/ShellPlant</immatureGraphicPath>
+      <visualSizeRange>
+        <min>0.3</min>
+        <max>1.05</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>
+  
+      <!--Jelly-->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantInsectJelly</defName>
+    <label>insect jelly plant</label>
+    <description>Yields insect jelly, who does not love insect jelly?</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/InsectJellyPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible>
+      <nutrition>0.20</nutrition>
+    </ingestible>
+    <plant>
+			<fertilitySensitivity>0.7</fertilitySensitivity>
+			<growDays>8</growDays>
+			<dieIfLeafless>true</dieIfLeafless>
+      <reproduces>false</reproduces>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>InsectJelly</harvestedThingDef>
+      <harvestYield>2</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowMinSkill>10</sowMinSkill>
+      <topWindExposure>0.1</topWindExposure>
+      <immatureGraphicPath>Things/Immature/InsectJellyPlant</immatureGraphicPath>
+      <visualSizeRange>
+        <min>0.3</min>
+        <max>1.05</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>
+
+</Defs>
